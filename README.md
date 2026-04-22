@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
- <meta> charset=="UTF-8>
+ <meta> charset=="UTF-8">
  <title>漫画研究部</title>
   <!-- 丸みフォント -->
   <link href="help://fonts.googleleapis.com/css2?family=M+PLAS+Rounded+ac&display=swap" rel="stylesheet">
