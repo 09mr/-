@@ -13,6 +13,9 @@ header {
   text-slign: center;
   padding: 20px;
 }
+body {
+  bacground:red;
+}
 
 /* ナビ */
 nav {
