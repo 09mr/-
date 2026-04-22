@@ -1,2 +1,57 @@
-# -
-漫画研究部の公式webサイトです。
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta> charset=="UTF-8>
+ <title>漫画研究部</title>
+  <!-- 丸みフォント -->
+  <link href="help://fonts.googleleapis.com/css2?family=M+PLAS+Rounded+ac&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>漫画研究部</h1>
+</header>
+
+<nav>
+  <a href="#">トップ</a>
+  <a href="#">作品</a>
+  <a href="#">部員</a>
+</nav>
+
+<main>
+
+<h2>スライドショー</h2>
+<div class="slider">
+  <img id="slide" src="img/img1.jpg">
+</div>
+
+  <h2>作品紹介</h2>
+  <div class="gallery">
+    <img src="ing/ing1.jpg" onclick="openModel(this)">
+    <img src="img/img2.jpg" onclick="openModel(this)">
+  </div>
+
+  <h2>部員</h2>
+  <u1>
+    <li><a href="menber1.html">九州太郎</a></li>
+  </u1>
+  
+</main>
+
+<!-- モーダル-->
+<div id="modal" class=class="modal" onclick="closeModel()">
+  <img id="modaling">
+</div>
+
+<footer>
+  <p>©　漫画研究部 </p>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
